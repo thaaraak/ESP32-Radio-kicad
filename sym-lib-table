@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name IQ-Tayloe-Mixer-rescue)(type Legacy)(uri "/home/xenir/kicad/IQ-Tayloe-Mixer/IQ Tayloe Mixer-rescue.lib")(options "")(descr ""))
+  (lib (name ESP32-Radio-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP32-Radio-rescue.lib)(options "")(descr ""))
 )

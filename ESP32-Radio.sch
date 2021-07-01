@@ -62,7 +62,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 7500 8350 6600
 $Comp
-L IQ-Tayloe-Mixer-rescue:GND-Tayloe_Detector_v5-eagle-import #GND01
+L ESP32-Radio-rescue:GND-Tayloe_Detector_v5-eagle-import-IQ-Tayloe-Mixer-rescue #GND01
 U 1 1 12C122FD
 P 8750 6400
 F 0 "#GND01" H 8750 6400 50  0001 C CNN
@@ -73,7 +73,7 @@ F 3 "" H 8750 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:C5_3.5-Tayloe_Detector_v5-eagle-import C30
+L ESP32-Radio-rescue:C5_3.5-Tayloe_Detector_v5-eagle-import-IQ-Tayloe-Mixer-rescue C30
 U 1 1 5EE9C731
 P 9450 5200
 F 0 "C30" H 9510 5215 59  0000 L BNN
@@ -141,7 +141,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 5600 4550 5200
 $Comp
-L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R1
+L Xenir:Resistor R1
 U 1 1 5EF82F89
 P 2150 5200
 F 0 "R1" H 2150 5260 70  0000 C BNN
@@ -152,7 +152,7 @@ F 3 "" H 2150 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R3
+L Xenir:Resistor R3
 U 1 1 5EF82F8F
 P 2550 5600
 F 0 "R3" H 2550 5660 70  0000 C BNN
@@ -163,7 +163,7 @@ F 3 "" H 2550 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R11
+L Xenir:Resistor R11
 U 1 1 5EF82F95
 P 4350 5200
 F 0 "R11" H 4350 5260 70  0000 C BNN
@@ -174,7 +174,7 @@ F 3 "" H 4350 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R13
+L Xenir:Resistor R13
 U 1 1 5EF82F9B
 P 4750 5600
 F 0 "R13" H 4750 5660 70  0000 C BNN
@@ -185,7 +185,7 @@ F 3 "" H 4750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R2
+L Xenir:Resistor R2
 U 1 1 5EF82FC5
 P 2150 6700
 F 0 "R2" H 2150 6760 70  0000 C BNN
@@ -196,7 +196,7 @@ F 3 "" H 2150 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R4
+L ESP32-Radio-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import-IQ-Tayloe-Mixer-rescue R4
 U 1 1 5EF82FCB
 P 2550 7100
 F 0 "R4" H 2550 7160 70  0000 C BNN
@@ -207,7 +207,7 @@ F 3 "" H 2550 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R12
+L Xenir:Resistor R12
 U 1 1 5EF82FD1
 P 4350 6700
 F 0 "R12" H 4350 6760 70  0000 C BNN
@@ -218,7 +218,7 @@ F 3 "" H 4350 6700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:0.3OHM-0805-1_8W-1%-phase_v3-eagle-import R14
+L Xenir:Resistor R14
 U 1 1 5EF82FD7
 P 4750 7100
 F 0 "R14" H 4750 7160 70  0000 C BNN
@@ -260,14 +260,14 @@ Connection ~ 8750 6300
 Wire Wire Line
 	8750 6100 8750 6300
 $Comp
-L IQ-Tayloe-Mixer-rescue:FST3253-Tayloe_Detector_v5-eagle-import U$1
+L Xenir:FST3253 U$1
 U 1 1 6E1B97F5
-P 11550 6300
-F 0 "U$1" H 8950 7025 59  0000 L BNN
-F 1 "FST3253" H 8950 5600 59  0000 L BNN
-F 2 "Xenir:SO16" H 11550 6300 50  0001 C CNN
-F 3 "" H 11550 6300 50  0001 C CNN
-	1    11550 6300
+P 9900 4950
+F 0 "U$1" H 7300 5675 59  0000 L BNN
+F 1 "FST3253" H 7300 4250 59  0000 L BNN
+F 2 "Xenir:SO16" H 9900 4950 50  0001 C CNN
+F 3 "" H 9900 4950 50  0001 C CNN
+	1    9900 4950
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -606,15 +606,15 @@ F 3 "" H 6900 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C22
+L Xenir:Capacitor C22
 U 1 1 5EEBD3D7
-P 7100 6050
-F 0 "C22" H 7160 6165 70  0000 L BNN
-F 1 ".022uF" H 7160 5965 70  0000 L BNN
-F 2 "Xenir:Capacitor 1206" H 7100 6050 50  0001 C CNN
-F 3 "" H 7100 6050 50  0001 C CNN
-	1    7100 6050
-	1    0    0    -1  
+P 7100 6000
+F 0 "C22" H 6950 5700 70  0000 L BNN
+F 1 ".022uF" H 6850 5800 70  0000 L BNN
+F 2 "Xenir:Capacitor 1206" H 7100 6000 50  0001 C CNN
+F 3 "" H 7100 6000 50  0001 C CNN
+	1    7100 6000
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR022
@@ -628,15 +628,15 @@ F 3 "" H 7100 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C23
+L Xenir:Capacitor C23
 U 1 1 5EEBE874
-P 7100 6500
-F 0 "C23" H 7160 6615 70  0000 L BNN
-F 1 ".022uF" H 7160 6415 70  0000 L BNN
-F 2 "Xenir:Capacitor 1206" H 7100 6500 50  0001 C CNN
-F 3 "" H 7100 6500 50  0001 C CNN
-	1    7100 6500
-	1    0    0    -1  
+P 7100 6450
+F 0 "C23" H 7050 6700 70  0000 L BNN
+F 1 ".022uF" H 7000 6600 70  0000 L BNN
+F 2 "Xenir:Capacitor 1206" H 7100 6450 50  0001 C CNN
+F 3 "" H 7100 6450 50  0001 C CNN
+	1    7100 6450
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR023
@@ -650,15 +650,15 @@ F 3 "" H 7100 6600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C24
+L Xenir:Capacitor C24
 U 1 1 5EED34B4
-P 7100 6950
-F 0 "C24" H 7160 7065 70  0000 L BNN
-F 1 ".022uF" H 7160 6865 70  0000 L BNN
-F 2 "Xenir:Capacitor 1206" H 7100 6950 50  0001 C CNN
-F 3 "" H 7100 6950 50  0001 C CNN
-	1    7100 6950
-	1    0    0    -1  
+P 7100 6900
+F 0 "C24" H 7050 7150 70  0000 L BNN
+F 1 ".022uF" H 7000 7050 70  0000 L BNN
+F 2 "Xenir:Capacitor 1206" H 7100 6900 50  0001 C CNN
+F 3 "" H 7100 6900 50  0001 C CNN
+	1    7100 6900
+	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR024
@@ -672,15 +672,15 @@ F 3 "" H 7100 7050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IQ-Tayloe-Mixer-rescue:1.0UF-0805-25V-(+80_-20%)-phase_v3-eagle-import C25
+L Xenir:Capacitor C25
 U 1 1 5EED8105
-P 7100 7400
-F 0 "C25" H 7160 7515 70  0000 L BNN
-F 1 ".022uF" H 7160 7315 70  0000 L BNN
-F 2 "Xenir:Capacitor 1206" H 7100 7400 50  0001 C CNN
-F 3 "" H 7100 7400 50  0001 C CNN
-	1    7100 7400
-	1    0    0    -1  
+P 7100 7350
+F 0 "C25" H 6950 7050 70  0000 L BNN
+F 1 ".022uF" H 6850 7150 70  0000 L BNN
+F 2 "Xenir:Capacitor 1206" H 7100 7350 50  0001 C CNN
+F 3 "" H 7100 7350 50  0001 C CNN
+	1    7100 7350
+	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR025
@@ -727,7 +727,6 @@ Wire Wire Line
 	7800 5850 7800 6800
 Wire Wire Line
 	7800 6800 8150 6800
-Connection ~ 7100 5850
 Connection ~ 8150 6800
 Wire Wire Line
 	7100 6300 8050 6300
@@ -735,7 +734,6 @@ Wire Wire Line
 	8050 6300 8050 6500
 Wire Wire Line
 	8050 6500 8550 6500
-Connection ~ 7100 6300
 Connection ~ 8550 6500
 Wire Wire Line
 	7100 6750 7600 6750
@@ -743,7 +741,6 @@ Wire Wire Line
 	7600 6750 7600 6700
 Wire Wire Line
 	7600 6700 8250 6700
-Connection ~ 7100 6750
 Connection ~ 8250 6700
 Wire Wire Line
 	7100 7200 7900 7200
@@ -12276,4 +12273,7 @@ Text GLabel 10150 5800 2    50   Input ~ 0
 LO_0
 Text GLabel 10150 6000 2    50   Input ~ 0
 LO_90
+Connection ~ 7100 6300
+Connection ~ 7100 5850
+Connection ~ 7100 6750
 $EndSCHEMATC
